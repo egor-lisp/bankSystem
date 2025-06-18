@@ -46,7 +46,7 @@ bankSystem/
 
 ### 1. Клонирование репозитория
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/egor-lisp/bankSystem.git
 cd bankSystem
 ```
 
@@ -270,11 +270,3 @@ docker-compose logs -f postgres
 - SQL-инъекции предотвращаются через SQLAlchemy ORM
 - CORS настроен для разрешения кросс-доменных запросов
 - Обработка ошибок с информативными сообщениями
-
-## Лицензия
-
-MIT License
-
-## Поддержка
-
-Для вопросов и предложений создавайте Issues в репозитории. 
